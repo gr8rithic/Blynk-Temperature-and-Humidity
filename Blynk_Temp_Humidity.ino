@@ -10,10 +10,10 @@
 #define dht_dpin 13
 DHT dht(dht_dpin, DHTTYPE); 
 
-char auth[] = "PWfMRgqYsB3vHlr3su8tImJaZDELdvGj";                                                      
+char auth[] = "auth_code";                                                      
 
-char ssid[] = "Mr_11";   
-char pass[] = "nyur7061"; 
+char ssid[] = "wifi_name";   
+char pass[] = "wifi_password"; 
 float t;                                   
 float h;
 
